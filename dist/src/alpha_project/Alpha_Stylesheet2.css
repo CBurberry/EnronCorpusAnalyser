@@ -1,0 +1,53 @@
+.main-button {
+    -fx-background-color: #5D7DFD;
+    -fx-text-fill: #fafdfe;
+    -fx-cursor: hand;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+}
+
+.main-button:hover {
+    -fx-background-color: #1544FF;
+}
+#LargeListView {
+    -fx-font: 14pt "Calibri";
+}
+
+.SmallListView {
+    -fx-font: 18pt "Calibri";
+}
+
+#cntr .list-cell {
+    -fx-alignment: center;
+    -fx-font: 14pt "Calibri";
+}
+.list-view:focused, .list-cell:focused { 
+    -fx-focus-color: lightgrey; 
+    -fx-faint-focus-color: transparent;
+    -fx-accent: transparent;
+}
+.list-cell {
+    -fx-focus-color: transparent;
+}
+.list-view {
+    -fx-border: 1px solid black;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: lightskyblue;
+    -fx-text-fill: white;
+}
+.list-cell:filled:hover { 
+    -fx-background-color: lightgrey;
+    -fx-text-fill: white;  
+}
+.list-cell:empty {
+    -fx-background-color: white;    
+}
+
+#notouch .list-cell {
+    -fx-alignment: center;   
+}
+
+.scroll-pane {
+    -fx-padding: 0px;
+}

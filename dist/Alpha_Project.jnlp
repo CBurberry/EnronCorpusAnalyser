@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Alpha_Project.jnlp">
+  <information>
+    <title>Alpha_Project</title>
+    <vendor>Christian</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Alpha_Project.jar" size="703042" download="eager" />
+    <jar href="lib\guava-18.0.jar" size="2256213" download="eager" />
+    <jar href="lib\json-simple-1.1.1.jar" size="23737" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Alpha_Project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="alpha_project.Alpha_Project"  name="Alpha_Project" />
+  <update check="always"/>
+</jnlp>

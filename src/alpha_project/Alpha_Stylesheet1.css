@@ -1,0 +1,11 @@
+.main-button {
+    -fx-background-color: #5D7DFD;
+    -fx-text-fill: #fafdfe;
+    -fx-cursor: hand;
+    -fx-border-color: black;
+    -fx-border-width: 0px;
+}
+
+.main-button:hover {
+    -fx-background-color: #1544FF;
+}
